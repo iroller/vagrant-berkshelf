@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gemspec
 
+gem 'berkshelf', github: "iroller/berkshelf", branch: "2-0-stable"
+
 group :development do
   gem 'vagrant', github: "mitchellh/vagrant"
   gem 'coolline'
